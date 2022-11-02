@@ -24,6 +24,25 @@
   gap: 305px;
 }
 
+.navbar a {
+
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.line {
+  display: flex;
+  width: 83%;
+  justify-content: flex-end;
+  flex-direction: row;
+  align-items: center;
+  align-content: flex-end;
+  background-color: white !important;
+}
+
 .navbar-brand {
   width: 126px;
   height: 54px;
@@ -80,7 +99,7 @@ header {
 }
 
 
-.divider{
+.divider {
   display: flex;
   /* justify-content: space-evenly; */
   width: 100%;
@@ -90,8 +109,6 @@ header {
 }
 
 .home {
-  width: 48px;
-  height: 24px;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
@@ -102,8 +119,6 @@ header {
 }
 
 .aboutus {
-  width: 72px;
-  height: 24px;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
@@ -114,8 +129,6 @@ header {
 }
 
 .services {
-  width: 67px;
-  height: 24px;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
@@ -126,8 +139,6 @@ header {
 }
 
 .ourteams {
-  width: 89px;
-  height: 24px;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;
@@ -167,19 +178,18 @@ header {
 
 
 .contactus-contain {
-  box-sizing: border-box;
-  display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  padding: 4px 13px;;
+  align-items: center;
+  padding: 4px 13px;
   gap: 10px;
   width: 142px;
   height: 49px;
-  left: 1178px;
-  top: 42px;
   background: #2C3878;
+  color: #FFFFFF;
   border: 1px solid #3C3C3C;
+  justify-content: center;
 }
+
 
 .contactus {
   width: 78px;
