@@ -1997,6 +1997,12 @@ responsive
   }
 }
 
+@media (max-width: 1199px) {
+ .service-item{
+   padding: 19px;
+ }
+}
+
 @media (max-width: 992px) {
   .header-area {
     background-color: #fff;
