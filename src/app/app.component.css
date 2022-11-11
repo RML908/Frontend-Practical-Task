@@ -1027,6 +1027,8 @@ Services Style
   width: 50px;
   height: 50px;
   transition: all .3s;
+  background-position: center;
+  background-size: 81px;
 }
 
 .service-item h4 {
@@ -1049,7 +1051,8 @@ Services Style
 }
 
 .first-service .icon {
-  background-image: url(../assets/images/service-icon-01.png);
+  /*background-image: url(../assets/images/service-icon-01.png);*/
+  background-image: url(../assets/iconss/codeex.png);
 }
 
 .first-service:hover .icon {
@@ -1057,7 +1060,8 @@ Services Style
 }
 
 .second-service .icon {
-  background-image: url(../assets/images/service-icon-02.png);
+  background-image: url(../assets/iconss/mutable.png);
+  background-size: contain !important;
 }
 
 .second-service:hover .icon {
@@ -1066,7 +1070,8 @@ Services Style
 
 
 .third-service .icon {
-  background-image: url(../assets/images/service-icon-03.png);
+  background-image: url(../assets/iconss/mixtech.png);
+  background-size: cover;
 }
 
 .third-service:hover .icon {
@@ -1074,11 +1079,20 @@ Services Style
 }
 
 .fourth-service .icon {
-  background-image: url(../assets/images/service-icon-04.png);
+  background-image: url(../assets/images/service-icon-01.png);
+  background-size: auto;
 }
 
 .fourth-service:hover .icon {
   background-image: url(../assets/images/service-icon-hover-04.png);
+}
+.fifth-service .icon {
+  background-image: url("../assets/iconss/mrcomp.png");
+  background-size: contain;
+}
+.sixth-service .icon{
+  background-image: url("../assets/iconss/arminco.png");
+  background-size: contain;
 }
 
 .service-item:hover {
